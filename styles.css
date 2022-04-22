@@ -1,44 +1,64 @@
+#MainContainer_Wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 95vh;
+}
+
+#MainContainer {
+	height: 30rem;
+}
 
 html {
 	background-color: #232136;
 	color: #e0def4;
 	font-family: "Avenir Next";
 }
+
 h1 {
 	text-align: center;
-	margin-top: 5rem;
 	font-size: 3rem;
 	font-weight: normal;
 }
-.slogans, .mylinks, .yeartracker {
+
+.slogans,
+.mylinks,
+.yeartracker {
 	color: #908caa;
 	text-align: center;
 	font-weight: 100;
 	letter-spacing: 0.25rem;
 	text-transform: uppercase;
 }
+
 .slogans p {
 	margin-block-start: 0;
 	margin-block-end: 0.5rem;
 }
+
 .slogans .special {
 	color: #f6c177;
 }
+
 .mylinks {
 	margin-top: 3rem;
 	font-size: 80%;
 }
+
 .mylinks a {
 	color: #908caa;
 	text-decoration: none;
 	border-bottom: 1px solid;
 }
+
 .mylinks a:hover {
 	background-color: #2a283e;
 }
+
 .jp {
 	font-size: 200%;
 }
+
 .yeartracker {
 	margin-top: 5rem;
 }
@@ -46,9 +66,11 @@ h1 {
 .yeartracker_elapsed {
 	color: #44415a;
 }
+
 .yeartracker_ACTIVE {
 	color: #f6c177;
 }
+
 .yeartracker_pending {
 	color: #c4a7e7;
 }
