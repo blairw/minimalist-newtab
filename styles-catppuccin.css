@@ -1,0 +1,35 @@
+
+html {
+	background-color: #232136;
+	color: #e0def4;
+}
+
+.slogans,
+.mylinks,
+.yeartracker {
+	color: #908caa;
+}
+
+.slogans .special {
+	color: #f6c177;
+}
+
+.mylinks a {
+	color: #908caa;
+}
+
+.mylinks a:hover {
+	background-color: #2a283e;
+}
+
+.yeartracker_elapsed {
+	color: #44415a;
+}
+
+.yeartracker_ACTIVE {
+	color: #f6c177;
+}
+
+.yeartracker_pending {
+	color: #c4a7e7;
+}
